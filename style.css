@@ -1,0 +1,167 @@
+header {
+  display: flex;
+  justify-content: space-around;
+  background-color: whitesmoke;
+}
+nav {
+  width: 100%;
+  max-width: 1300px;
+  padding-left: 30px;
+  padding-right: 30px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.fa-location-dot {
+  position: relative;
+  top: 15px;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+.header-text {
+  display: flex;
+}
+.header-lokation {
+  display: flex;
+}
+.header-img {
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  position: relative;
+  top: 15px;
+}
+section {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  text-align: center;
+}
+.section-img-head {
+  width: 40px;
+  height: 30px;
+  border-radius: 50%;
+  position: relative;
+  top: 15px;
+}
+.section-h1 {
+  color: blue;
+}
+.section-button-head {
+  width: 90px;
+  height: 35px;
+  position: relative;
+  top: 15px;
+  color: blue;
+  border: none;
+  border-radius: 10px;
+}
+.section-input-head {
+  width: 550px;
+  height: 35px;
+  text-align: center;
+  position: relative;
+  top: 10px;
+  border-radius: 5px;
+}
+.fa-magnifying-glass {
+  position: relative;
+  right: 46px;
+  display: block;
+  background-color: rgb(212, 212, 243);
+  padding: 13px;
+  position: relative;
+  top: 12px;
+}
+.section-enter {
+  position: relative;
+  top: 25px;
+}
+.section-enter:hover {
+  background-color: rgb(202, 227, 244);
+  height: 35px;
+  text-align: center;
+}
+.section-picture {
+  margin-left: 30px;
+  position: relative;
+  top: 25px;
+}
+.section-picture:hover {
+  background-color: rgb(202, 227, 244);
+  height: 35px;
+  text-align: center;
+}
+.section-savat {
+  margin-left: 30px;
+  position: relative;
+  top: 25px;
+}
+.section-savat:hover {
+  background-color: rgb(202, 227, 244);
+  height: 35px;
+  text-align: center;
+}
+.home-wrap {
+  display: flex;
+  justify-content: center;
+  gap: 35px;
+}
+.home-wrap-img {
+  position: relative;
+  top: 15px;
+}
+.home-wrap-select {
+  position: relative;
+  top: 15px;
+  border: none;
+}
+.home-wrap-text {
+  display: flex;
+  margin-left: 150px;
+}
+.home-wrap-all {
+  margin-left: 5px;
+  color: rgb(134, 132, 132);
+}
+.home {
+  display: flex;
+}
+.home-wrap-img-grid {
+  gap: 5px;
+  display: flex;
+  flex-direction: column;
+  height: 80vh;
+  overflow-y: scroll;
+}
+.img-home {
+  height: 25vh;
+}
+.img-home--1 {
+  height: 25vh;
+  display: inline;
+}
+.img-home-new {
+  margin-left: 5px;
+  height: 80vh;
+  width: 50%;
+}
+.home-new-new {
+  margin-left: 35px;
+}
+.home-img {
+  display: inline;
+  position: absolute;
+  margin-left: 35px;
+}
+.kolichestbo {
+  border: 1px solid;
+
+  padding: 10px;
+}
+@media screen and(max-width:1270px) {
+  body {
+    background-color: chocolate;
+  }
+}
